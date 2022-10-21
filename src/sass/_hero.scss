@@ -1,0 +1,51 @@
+.hero-section {
+  background-color: #f5f4fa;
+}
+
+.hero-container {
+  height: 600px;
+  width: 100%;
+  background-image: url(../images/bebra.jpg);
+  background-repeat: no-repeat;
+  background-position-x: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.hero-title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  /* identical to box height, or 136% */
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.hero-btn {
+  cursor: pointer;
+  border: none;
+  padding: 10px 45px;
+  background-color: #e51d71;
+
+  margin-top: 40px;
+
+  color: #fff;
+
+  border-radius: 5px;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+  &:hover {
+    background-color: #f94f96;
+    scale: 1.01;
+  }
+}

@@ -1,2 +1,13 @@
+$header-color: #212121;
+$accent-color: #e51d71;
+$paragraph-color: #757575;
+$contrast-color: #fff;
+$backgroung-color: #2f303a;
+$footer-link: rgba(255, 255, 255, 0.6);
+$portfolio-btns: #f5f4fa;
+$btn-hover: #f94f96;
 @import './common';
-@import './example';
+@import './header';
+@import './hero';
+@import './manga';
+@import './footer';

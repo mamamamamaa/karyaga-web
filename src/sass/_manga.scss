@@ -1,0 +1,82 @@
+.manga-container {
+  padding-bottom: 50px;
+}
+
+.anime-container {
+  background-color: #f5f4fa;
+  padding-bottom: 50px;
+}
+
+.manga-title {
+  text-align: center;
+
+  font-family: 'Orienta';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 57px;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: #000000;
+
+  padding: 50px;
+}
+
+.cards-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  :nth-child(1) {
+    .card-manga {
+      background-color: #71727d;
+    }
+    .card-anime {
+      background-color: #a1669c;
+    }
+  }
+  :nth-child(2) {
+    .card-manga {
+      background-color: #344f51;
+    }
+    .card-anime {
+      background-color: #797a50;
+    }
+  }
+  :nth-child(3) {
+    .card-manga {
+      background-color: #402538;
+    }
+    .card-anime {
+      background-color: #a69866;
+    }
+  }
+}
+
+.card-manga,
+.card-anime {
+  width: 370px;
+  height: auto;
+  padding: 20px;
+
+  border-radius: 15px;
+
+  color: white;
+
+  cursor: pointer;
+
+  &:hover {
+    scale: 1.003;
+  }
+}
+
+.card-img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.desc {
+  margin-top: 10px;
+  width: 100%;
+}
